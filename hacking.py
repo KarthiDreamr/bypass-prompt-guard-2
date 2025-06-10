@@ -488,6 +488,7 @@ def main():
     benign_prob = probs[0][benign_class_idx].item() * 100
     print(f"Prefix is: {adv_prefix}")
     print(f"Complete text using template is: {full_text}")
+    print(f"COPY THIS:\n --- \n{injection_text+adv_prefix}\n --- \n")
     print(
         f"Payload with prefix is classified as: {model.config.id2label[predicted_class_id]} (benign probability: {benign_prob:.2f}%)"
     )
