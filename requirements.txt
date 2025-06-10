@@ -1,0 +1,6 @@
+pyyaml
+torch
+transformers
+huggingface_hub
+tiktoken
+python-dotenv 
