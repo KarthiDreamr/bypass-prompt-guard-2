@@ -6,7 +6,7 @@ model:
   id: "meta-llama/Llama-Prompt-Guard-2-86M"
   benign_class: "label_0"
   malicious_class: "label_1"
-  use_gpu: false
+  use_gpu: true
   load_hf_token_from_env: true
 
 optimization:
